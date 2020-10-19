@@ -18,12 +18,12 @@ const {
   
   async function run() {
     await client.url('https://www.cermati.com/gabung');
-    await client.setValue('#email', "cermatitestrasya@test.com");
-    await client.setValue('#password', "cermatirasya123");
-    await client.setValue('#confirm-password', "cermatirasya123");
+    await client.setValue('#email', "cermatitestrasya2@test.com");
+    await client.setValue('#password', "cermatirasya1234");
+    await client.setValue('#confirm-password', "cermatirasya1234");
     await client.setValue('#first-name', "Rasyadan");
     await client.setValue('#last-name', "Farouq");
-    await client.setValue('#mobile-phone', "081221815339");
+    await client.setValue('#mobile-phone', "081221815338");
     await client.setValue('#residence-city', "Jakarta");
     await client.pause(4000);
     await client.click('.autocomplete-list-item:nth-child(1)');
